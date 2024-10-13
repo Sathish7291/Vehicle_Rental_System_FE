@@ -43,7 +43,7 @@ function Home() {
              </div>
              </div>
   <DefaultLayout>
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32" >
+    <div className="relative isolate overflow-hidden py-40 sm:py-32 header"  >
 
       <div
         aria-hidden="true"
@@ -64,7 +64,7 @@ function Home() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">Fast & Easy Way To Rent A Car</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-white-300">
             Drive with Drivezy
           </p><br/>
           <Button variant="success" size='lg'><Link  className='link' to= {'/dashboard'}>Book Now</Link></Button>

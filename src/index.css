@@ -137,7 +137,11 @@ button{
   padding-bottom: 3%;
   color: white;
 }
-
+.header{
+  background-image: url(
+    'https://img.freepik.com/premium-photo/car-driving-down-road-with-headlights_754951-15577.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727049600&semt=ais_hybrid');
+    background-size: cover;
+}   
 svg{
   height:20px !important;
   width : 20px !important;
