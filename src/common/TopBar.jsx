@@ -66,10 +66,6 @@ import avathar from '../assets/avathar.png'
             value:'My Bookings',
             path:'/bookings',
             role:["admin","user"]
-        },
-        {
-            value:'Signout',
-            role:["admin","user"]
         }
     ]
 
@@ -138,9 +134,9 @@ import avathar from '../assets/avathar.png'
                           </Link>
                         </MenuItem>
                       ))}
+                      <Link  className="text-decoration-line: none block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100" onClick={()=>logout()}>Signout</Link>
                     </MenuItems>
-                  </Menu>  &nbsp;&nbsp;&nbsp;&nbsp;
-                  <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={()=>logout()}>Logout</button>
+                  </Menu>  
                 </div>
               </div>
              

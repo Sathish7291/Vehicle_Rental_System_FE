@@ -14,6 +14,7 @@ import ProtectedRoute from "../utils/ProtectedRoute"
 import AdminGaurd from "../utils/AdminGaurd"
 import BookingCar from "../components/BookingCar";
 import Contactus from "../components/Contactus";
+import useLogout from "../hooks/useLogout";
 
 
 
@@ -73,6 +74,10 @@ const AppRoutes = [
     {
         path: '/contactus',
         element:<ProtectedRoute><Contactus/></ProtectedRoute>
+    },
+    {
+        path:'/logout',
+        element:<useLogout/>
     }
 ]
 
